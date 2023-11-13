@@ -1,5 +1,7 @@
 /* All variables are in 'styles.css' */
 
-span {
-  color: var(--text-color)
+.navigaton {
+  width: 100%;
+  min-height: 10vh;
+  background-color: var(--bg-navigation);
 }

@@ -1,6 +1,8 @@
+/* There are the bascis styles */
 :root {
-  --text-color: ;
-  --bg-body: ;
+  --basic-text-color: #101;
+  --bg-body: #dedede;
+  --bg-navigation: #010;
 }
 
 * {
@@ -9,5 +11,9 @@
   font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   box-sizing: border-box;
+}
+body {
+  color: var(--basic-text-color);
+  background-color: var(--bg-body);
 }
 
