@@ -1,7 +1,11 @@
 /* All variables are in 'styles.css' */
 
-.navigaton {
+.navigation {
+  color: var(--text-color-white);
   width: 100%;
-  min-height: 10vh;
+  padding: 20px;
   background-color: var(--bg-navigation);
+}
+.navigation_leftbar {
+  margin: 10px;
 }

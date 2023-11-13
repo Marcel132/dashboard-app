@@ -1,6 +1,7 @@
 /* There are the bascis styles */
 :root {
-  --basic-text-color: #101;
+  --text-color-white: #efe;
+  --text-color-black: #101;
   --bg-body: #dedede;
   --bg-navigation: #010;
 }
@@ -13,7 +14,18 @@
   box-sizing: border-box;
 }
 body {
-  color: var(--basic-text-color);
+  color: var(--text-color-black);
   background-color: var(--bg-body);
 }
 
+/* ----- CLASSES ----- */
+/* The first word defines how to display the element */
+/* The second word defines the align-itmes or the align content value */
+/* The third word defines the justify-content value */
+/* The fourth word defines the direction of element */
+
+.flex_center_spaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
