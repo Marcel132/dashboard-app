@@ -1,3 +1,28 @@
-<app-basic-pattern>
+<div class="container">
+  <header class="header">
+    <nav class="navigation flex_center_spaceBetween">
+      <div class="navigation_leftbar">
+        BlogBlog
+      </div>
+      <div class="navigation_centerbar">
+    
+      </div>
+      <div class="navigation_rightbar">
+        <button class="navigation_buttons" id="login">Login</button>
+        <span> | </span>
+        <button class="navigation_buttons" id="signup">Sign up</button>
+      </div>
+    </nav>  
+  </header>
+
+  <router-outlet></router-outlet>
   
-</app-basic-pattern>
+  <footer class="footer flex_center_center">
+    <ul class="footer_list">
+      <li class="footer_list_el"><a routerLink="/privacy-policy">Privacy policy</a></li>
+      <li class="footer_list_el"><a routerLink="'/Statute'">Statute</a></li>
+      <li class="footer_list_el"><a href=""></a>...</li>
+    </ul>
+  </footer>
+  
+</div>
