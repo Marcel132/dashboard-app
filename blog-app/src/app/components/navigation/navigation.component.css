@@ -1,0 +1,28 @@
+/* All variables are in 'styles.css' */
+
+.navigation {
+  color: var(--text-color-black);
+  width: 100%;
+  padding: 20px;
+  background-color: var(--bg-navigation);
+}
+.navigation_leftbar {
+  margin: 10px;
+}
+
+.navigation_rightbar span{
+  font-size: 25px;
+}
+
+.navigation_buttons {
+  padding: 10px;
+  border-radius: 30px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.navigation_buttons:hover {
+  opacity: 1;
+  transition: .5s;
+  background-color: var(--text-color-black);
+  color: var(--bg-navigation)
+}

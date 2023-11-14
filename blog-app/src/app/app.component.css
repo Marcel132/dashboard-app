@@ -1,11 +1,4 @@
-/* All variables are in 'styles.css' */
-
-.navigation {
-  color: var(--text-color-white);
+.container {
   width: 100%;
-  padding: 20px;
-  background-color: var(--bg-navigation);
-}
-.navigation_leftbar {
-  margin: 10px;
+  min-height: 100vh;
 }
