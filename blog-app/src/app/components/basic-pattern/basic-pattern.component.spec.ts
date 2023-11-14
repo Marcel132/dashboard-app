@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavigationComponent } from './navigation.component';
+import { BasicPatternComponent } from './basic-pattern.component';
 
-describe('NavigationComponent', () => {
-  let component: NavigationComponent;
-  let fixture: ComponentFixture<NavigationComponent>;
+describe('BasicPatternComponent', () => {
+  let component: BasicPatternComponent;
+  let fixture: ComponentFixture<BasicPatternComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NavigationComponent]
+      imports: [BasicPatternComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(NavigationComponent);
+    fixture = TestBed.createComponent(BasicPatternComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

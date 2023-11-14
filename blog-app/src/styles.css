@@ -1,9 +1,11 @@
 /* There are the bascis styles */
 :root {
-  --text-color-white: #efe;
-  --text-color-black: #101;
-  --bg-body: #dedede;
+  --text-color-white: #eeffee;
+  --text-color-black: #110011;
+  --bg-body: #e1e1e1;
   --bg-navigation: #c1c1c1;
+  --bg-footer: #dedede;
+  --box-shadow: 1px 1px 10px #222;
 }
 
 * {
@@ -29,4 +31,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.flex_center_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

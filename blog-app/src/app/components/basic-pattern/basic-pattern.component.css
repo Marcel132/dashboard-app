@@ -1,10 +1,17 @@
 /* All variables are in 'styles.css' */
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* NAVIGATION */
 
 .navigation {
   color: var(--text-color-black);
   width: 100%;
   padding: 20px;
   background-color: var(--bg-navigation);
+  box-shadow: var(--box-shadow);
 }
 .navigation_leftbar {
   margin: 10px;
@@ -25,4 +32,15 @@
   transition: .5s;
   background-color: var(--text-color-black);
   color: var(--bg-navigation)
+}
+
+
+/* FOOTER */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  padding: 5px;
+  bottom: 0;
+  background-color: var(--bg-footer);
 }
